@@ -1,0 +1,294 @@
+html{
+position: relative;
+width: 1440px;
+height: 900px;
+
+background: #FFFFFF;
+}
+#group19{
+    position: absolute;
+    width: 960px;
+    height: 720px;
+    left: 140px;
+    top: 40px;
+}
+#msi{
+    position: absolute;
+width: 87px;
+height: 28px;
+left: 140px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+color: #333333;
+
+}
+#hey{
+    position: absolute;
+width: 680px;
+height: 44px;
+left: 140px;
+top: 146px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height, or 137% */
+
+
+color: #333333;
+}
+#try{
+    position: absolute;
+width: 315px;
+height: 44px;
+left: 140px;
+top: 190px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 44px;
+/* identical to box height, or 183% */
+color: #333333;
+}
+input{
+width: 20px;
+height: 20px;
+border: 2px solid #ABABAB;
+box-sizing: border-box;
+}
+.formChoice {
+    left: 140px;
+    top: 280px;
+    position: absolute;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+color: #333333;
+}
+#button{
+    position: absolute;
+width: 152px;
+height: 42px;
+left: 140px;
+top: 458px;
+background: linear-gradient(92.01deg, #8EA7FF 0%, #7291FF 100%);
+border-radius: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 137% */
+
+
+color: #FFFFFF;
+
+}
+.group{
+position: absolute;
+width: 680px;
+height: 225px;
+margin-left: 140px;
+margin-top: 535px;
+background: #F8F8F8;
+border-radius: 20px;
+}
+#favSvg{
+   position: absolute;
+top: 40px;
+right:40px;
+left: 640px;
+bottom: 168px;
+
+}
+#idInfo{
+    position: absolute;
+    width: 180px;
+    height: 14px;
+    left: 240px;
+    top: 67px;
+    left:100px;
+    right: 435px;
+    bottom: 144px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height, or 140% */
+    
+    
+    color: #ABABAB;
+}
+#message{
+position: absolute;
+
+width: 40px;
+height: 40px;
+left: 40px;
+top: 55px;
+bottom: 118px;
+right: 600px;
+border-radius: 50%;
+background: #FFFFFF;
+}
+#messageSvg{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#textJoke{
+position: absolute;
+width: 540px;
+height: 52px;
+top: 80px;
+left: 100px;
+right: 40px;
+bottom: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+}
+#jokeCategory{
+    position: absolute;
+    top: 167px;
+    bottom: 46px;
+    left: 553px;
+    right: 60px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 14px;
+/* or 140% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #333333;
+}
+#lastUpdate{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    bottom: 45px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height, or 140% */
+
+
+color: #ABABAB;
+}
+#sectionRight{
+position: absolute;
+width: 480px;
+height: 900px;
+left: 1200px;
+right: px;
+top: 0px;
+
+background: #F8F8F8;
+}
+#group1{
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    right: 40px;
+    bottom: 632px;
+    height: 200px;
+    width: 400px;
+}
+#group2{
+    position: absolute;
+    left: 40px;
+    top: 288px;
+    right: 40px;
+    bottom: 472px;
+    height: 200px;
+    width: 400px;
+}
+#group3{
+    position: absolute;
+    left: 40px;
+    top: 448px;
+    right: 40px;
+    bottom: 292px;
+    height: 200px;
+    width: 400px;
+    height: 200px;
+    width: 400px;
+}
+#group1{
+    visibility: hidden;
+}
+#group2{
+    visibility: hidden;
+}
+#group3{
+    visibility: hidden;
+}
+#group1idInfo,#group2idInfo,#group3idInfo{
+    position: absolute;
+    left: 80px;
+    top: 47px;
+    right: 175px;
+    bottom: 119px;
+}
+#group1favSvg, #group2favSvg, #group3favSvg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 360px;
+    bottom: 143px;
+}
+#group1message,#group2message,#group3message{
+    position: absolute;
+    top:47px;
+    left: 20px;
+    bottom: 93px;
+    right: 340px;
+}
+#group1messageSvg, #group2messageSvg, #group3messageSvg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#group1textJoke, #group2textJoke, #group3textJoke{
+    position: absolute;
+    left: 80px;
+    top: 66px;
+    right: 20px;
+    bottom: 54px;
+    font-family: Roboto;
+font-style: Regular;
+font-size: 14px;
+
+}
+#group1lastUpdate,#group2lastUpdate,#group3lastUpdate{
+    position: absolute;
+    left: 80px;
+    top: 146px;
+    right: 192px;
+    bottom: 20px;
+
+}
