@@ -5,19 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="desktop1.css">
+    <link rel="stylesheet" href="/css/desktop1.css">
 </head>
 
 <body>
     <div id="group19">
-        <p id="msi">MSI 2020</p>
+        <div id='chuck_logo'></div>
+        <div id='boom_one'></div>
+        <div id='boom_second'></div>
+        <div id='boom_three'></div>
+        <div id='boom_four'></div>
         <p id="hey">HEY!</p>
         <p id="try">Let's try to find a joke for you:</p>
         <form action="" method="get" name="form" class="formChoice">
-            <p><input type="radio" name="random" id=""> Random</p>
-            <p> <input type="radio" name="fromCategories" id="">From categories</p>
-            <ul id="form_categories"></ul>
-            <p> <input type="radio" name="Search" id="">Search</p>
+            <input type="radio" name="form_elements" id="form_random"> 
+            <label for="form_random">Random</label>
+            <input type="radio" name="form_elements" id="form_categories">
+            <label for="form_categories">From categories</label>
+            <div id="form_categoriesList"></div>
+            <input type="radio" name="form_elements" id="form_search">
+            <label for="form_search">Search</label>
+            <input type="text" name="" id="input_form_search">
         </form>
         <button id='button'>Get a joke</button>
         <div class="group">
@@ -53,7 +61,7 @@
 
 
 
-    <script src="desktop1.js"></script>
+    <script src="/js/desktop1.js"></script>
 </body>
 
 </html>

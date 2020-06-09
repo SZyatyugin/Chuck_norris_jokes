@@ -5,6 +5,59 @@ html{
     
     background: #FFFFFF;
     }
+    #chuck_logo{
+        position: absolute;
+        left: 600px;
+        background: url(/images/chuck.png);
+        width:200px;
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #boom_one{
+        left: 400px;
+        position: absolute;
+        background: url(/images/unnamed.png);
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        visibility: hidden;
+    }
+    #boom_second{
+        left: 900px;
+        position: absolute;
+        background: url(/images/unnamed.png);
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        visibility: hidden;
+    }
+    #boom_three{
+        position: absolute;
+        left: 470px;
+        top: 250px;
+        width: 150px;
+        height: 150px;
+        transform: skewX(35deg);
+        visibility: hidden;
+        background: url(/images/boom.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #boom_four{
+        position: absolute;
+        left: 800px;
+        top: 230px;
+        width: 150px;
+        height: 150px;
+        visibility: hidden;
+        transform: skewY(35deg);
+        background: url(/images/boom.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     #group19{
         position: absolute;
         width: 960px;
@@ -13,7 +66,7 @@ html{
         top: 40px;
     }
     #msi{
-        position: absolute;
+    position: absolute;
     width: 87px;
     height: 28px;
     left: 140px;
@@ -48,7 +101,7 @@ html{
     color: #333333;
     }
     #try{
-        position: absolute;
+    position: absolute;
     width: 315px;
     height: 44px;
     left: 140px;
@@ -63,12 +116,16 @@ html{
     color: #333333;
     }
     input{
-    width: 20px;
-    height: 20px;
+    
     border: 2px solid #ABABAB;
-    box-sizing: border-box;
+    height:fit-content;
+    width: fit-content;
+  
     }
     .formChoice {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        grid-template-rows: repeat(4, 1fr);
         left: 140px;
         top: 280px;
         position: absolute;
@@ -76,9 +133,42 @@ html{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 25px;
+    height: 150px;
+    width: 900px;
     /* identical to box height, or 144% */
     color: #333333;
+    }
+    
+    .formChoice input:nth-child(6){
+        grid-column: 1;
+    }
+    #form_categoriesList{
+        margin-left: 0px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 900px;
+        height: 30px;
+        margin-left: -50px;
+    }
+    #form_categoriesList input{
+        
+        background: linear-gradient(92.01deg, #8EA7FF 0%, #7291FF 100%);
+        border-radius: 10px; 
+        color: #FFFFFF;
+        border: indigo;
+      
+    }
+    #form_categoriesList input:hover{
+background: white;
+color: indigo;
+    }
+    #input_form_search{
+        visibility: hidden;
+        width: 500px;
+        height: 25px;
+      
     }
     #button{
         position: absolute;
@@ -109,7 +199,7 @@ html{
     border-radius: 20px;
     }
     #favSvg{
-       position: absolute;
+    position: absolute;
     top: 40px;
     right:40px;
     left: 640px;
@@ -210,10 +300,10 @@ html{
     background: #F8F8F8;
     }
     .group1{
-       
-        margin-left: 40px;
-        margin-top: 40px;
-        margin-right: 40px;
+        position: absolute;
+        left: 40px;
+        top: 40px;
+        right: 40px;
         height: 200px;
         width: 400px;
     }
@@ -236,37 +326,22 @@ html{
         width: 400px;
         
     }
-    
-    #sectionRight__idInfo{
+    .sectionRight__idInfo{
         position: absolute;
         left: 80px;
         top: 47px;
         right: 175px;
         bottom: 119px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
     }
-    #group1favSvg, #group2favSvg, #group3favSvg{
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        left: 360px;
-        bottom: 143px;
-    }
-    #group1message,#group2message,#group3message{
-        position: absolute;
-        top:47px;
-        left: 20px;
-        bottom: 93px;
-        right: 340px;
-    }
-    #group1messageSvg, #group2messageSvg, #group3messageSvg{
-        position: absolute;
-        top: 10px;
-        left: 10px;
-    }
-    #sectionRight__textJoke{
+    .sectionRight__textJoke{
         position: absolute;
         left: 80px;
-        top: 66px;
+        top: 70px;
         right: 20px;
         bottom: 54px;
         font-family: Roboto;
@@ -274,7 +349,7 @@ html{
     font-size: 14px;
     
     }
-    #sectionRight__lastUpdate{
+    .sectionRight__lastUpdate{
         position: absolute;
         left: 80px;
         top: 146px;
