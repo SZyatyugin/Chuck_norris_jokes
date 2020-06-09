@@ -8,7 +8,7 @@ html{
     #chuck_logo{
         position: absolute;
         left: 600px;
-        background: url(/images/chuck.png);
+        background: url(images/chuck.png);
         width:200px;
         height: 500px;
         background-size: contain;
@@ -17,7 +17,7 @@ html{
     #boom_one{
         left: 400px;
         position: absolute;
-        background: url(/images/unnamed.png);
+        background: url(images/unnamed.png);
         width: 100px;
         height: 100px;
         background-size: contain;
@@ -27,7 +27,7 @@ html{
     #boom_second{
         left: 900px;
         position: absolute;
-        background: url(/images/unnamed.png);
+        background: url(images/unnamed.png);
         width: 100px;
         height: 100px;
         background-size: contain;
@@ -42,7 +42,7 @@ html{
         height: 150px;
         transform: skewX(35deg);
         visibility: hidden;
-        background: url(/images/boom.png);
+        background: url(images/boom.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -54,7 +54,7 @@ html{
         height: 150px;
         visibility: hidden;
         transform: skewY(35deg);
-        background: url(/images/boom.png);
+        background: url(images/boom.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
