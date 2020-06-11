@@ -5,18 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/desktop1.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="/css/extrasmall.css">
+    <link rel="stylesheet" media="screen and (min-width:481px) and (max-width:767px)" href="/css/small.css">
+    <link rel="stylesheet" media="screen and (min-width:768px) and (max-width:979px)" href="/css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width:980px) and (max-width:1200px)" href="/css/large.css">
+    <link rel="stylesheet" media="screen and (min-width:1201px)" href="/css/extralarge.css">
 </head>
 
 <body>
-    <div id="group19">
+    <div class="main_wrapper">
+    <div class="group19">
+        <div id='images'>
         <div id='chuck_logo'></div>
         <div id='boom_one'></div>
         <div id='boom_second'></div>
         <div id='boom_three'></div>
         <div id='boom_four'></div>
-        <p id="hey">HEY!</p>
-        <p id="try">Let's try to find a joke for you:</p>
+    </div>
+        
+        <div id="hey">HEY!</div>
+        <div id="try">Let's try to find a joke for you:</div>
         <form action="" method="get" name="form" class="formChoice">
             <input type="radio" name="form_elements" id="form_random"> 
             <label for="form_random">Random</label>
@@ -52,13 +60,14 @@
             <div id="lastUpdate"></div>
         </div>
     </div>
-    <div id=sectionRight></div>
+   
+    <div class='sectionRight_class'>
+        <div class='favourites'>Favourites</div>
+        <div id='sectionRight'>   
+        </div>
     </div>
-
-
-
-
-
+    
+</div>
     <script src="js/desktop1.js"></script>
 </body>
 
