@@ -24,6 +24,7 @@ frm.onclick=function(e){
         var element = form_elements[i];
         if(element.checked){
             if(element.id!='form_categories' && form_categoriesList.childNodes.length>0){
+                get('jokeCategory').innerHTML='';
                 do{
                     form_categoriesList.removeChild(form_categoriesList.lastChild);
                 }
@@ -94,7 +95,6 @@ frm.onclick=function(e){
                         }else{
                             continue
                         }
-                        
                     }
                 }
                 if(e.id=='form_search'){
